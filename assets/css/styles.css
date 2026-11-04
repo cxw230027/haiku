@@ -1,5 +1,28 @@
 /* styles.css */
+html{
+	width:100%;
+	height:100%;
+}
+body{
+	margin: 2rem;
+	background-color:lightskyblue;
+	font-size: 5rem;
+	overflow: hidden;
+	background-image: url(../img/starfall-night-sky-mountains-aesthetic-gif-preview-desktop-wallpaper.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
-* {
-	font-family: Arial;
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+	gap: 2rem
+}
+
+.last{
+	padding-bottom: 2rem;
+	border-bottom: 2px solid rgb(220,200,180);
 }
