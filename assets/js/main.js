@@ -9,9 +9,9 @@ function randomNumber(min, max){
 function randomize() {
     console.log(divs.length, "randomize!");
     divs.forEach(function(div){
-        let scale = randomNumber(0.5, 1.2);
-        let translateX = randomNumber(0, 50);
-        let translateY = randomNumber(0, 20);
+        let scale = randomNumber(0.5, 3);
+        let translateX = randomNumber(-100, 100);
+        let translateY = randomNumber(-20, 20);
         let rotate = randomNumber(-100, 100);
 
         if (Math.random() > 0.5) {
